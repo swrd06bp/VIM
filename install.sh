@@ -4,10 +4,10 @@
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # copy all configuration
-cp .vimrc ~/.vimrc
+cp vimrc ~/.vimrc
 
 #clean up directory
-cp .. $$ rm -rf VIM
+cd .. $$ rm -rf VIM
 
 # install everything
 vim +PluginInstall +qall

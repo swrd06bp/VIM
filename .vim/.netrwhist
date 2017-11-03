@@ -1,6 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/home/ubuntu/windu/db'
-let g:netrw_dirhist_2='/home/ubuntu/c3po'
-let g:netrw_dirhist_3='/home/ubuntu/windu'
-let g:netrw_dirhist_4='/home/ubuntu/windu/uploads'
