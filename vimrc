@@ -53,7 +53,7 @@ set cursorline
 "colorscheme base16-default
 
 "set pastetoggle=<F2>
-"let mapleader=","
+let mapleader=","
 set smartindent
 set tabstop=4
 set shiftwidth=4
