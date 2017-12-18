@@ -118,6 +118,9 @@ nmap <leader>gg :Ggrep<cr>
 nmap <leader>gb :Gblame<cr>
 nmap <leader>gp :Gpush<cr>
 
+"" Breakpoint
+map <Leader>b Oimport ipdb; ipdb.set_trace() # BREAKPOINT<C-c>
+
 ""Linting
 let g:pymode_lint = 0
 let g:pymode_lint_write = 0
