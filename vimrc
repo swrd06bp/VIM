@@ -64,12 +64,6 @@ let g:airline_powerline_fonts = 1
 " vim airline always
 set laststatus=2
 
-" allow quit via single keypress (Q)
-map <leader>wq :wq<CR>
-map <leader>w :w<CR>
-map <leader>x :xa<CR>
-map <leader>fq :q!<CR>
-map <leader>qa :qa<CR>
 
 "" Use ctrl-[hjkl] to select the active split!
 nmap <silent> <c-k> :wincmd k<CR>
@@ -124,7 +118,7 @@ map <Leader>b Oimport ipdb; ipdb.set_trace() # BREAKPOINT<C-c>
 
 "" command-mode
 nnoremap : ;
-nnoremap : ;
+nnoremap ; :
 
 
 ""Linting
