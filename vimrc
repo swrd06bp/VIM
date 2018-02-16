@@ -116,10 +116,6 @@ nmap <leader>gp :Gpush<cr>
 "" Breakpoint
 map <Leader>b Oimport ipdb; ipdb.set_trace() # BREAKPOINT<C-c>
 
-"" command-mode
-nnoremap : ;
-nnoremap ; :
-
 
 ""Linting
 let g:pymode_lint = 0
