@@ -25,6 +25,8 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'bling/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'Yggdroot/indentLine'
+Plugin 'mileszs/ack.vim'
+Plugin 'majutsushi/tagbar'
 Plugin 'jiangmiao/auto-pairs'
 "Plugin 'klen/python-mode'
 Plugin 'pangloss/vim-javascript'
@@ -198,6 +200,7 @@ let g:auto_save_silent = 1
 
 "ctags
 set tags=./tags;/
+nmap <Leader>t :TagbarToggle<CR>
 
 
 " execute pathogen#infect()
