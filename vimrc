@@ -63,9 +63,12 @@ set expandtab
 
 "powerline fonts
 let g:airline_powerline_fonts = 1
+
 " vim airline always
 set laststatus=2
 
+" highlight when search
+set hlsearch
 
 "" Use ctrl-[hjkl] to select the active split!
 nmap <silent> <c-k> :wincmd k<CR>
