@@ -206,4 +206,4 @@ set tags=./tags;/
 nmap <Leader>t :TagbarToggle<CR>
 
 
-" execute pathogen#infect()
+execute pathogen#infect()
