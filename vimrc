@@ -107,6 +107,7 @@ let NERDTreeIgnore = ['\.pyc$']
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 let NERDTreeShowBookmarks=1
 let NERDTreeChDirMode=2
+highlight Directory ctermfg=cyan
 
 "git fugitive mappings
 "
