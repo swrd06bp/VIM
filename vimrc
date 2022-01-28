@@ -50,7 +50,7 @@ set cmdheight=2
 set conceallevel=0
 set cursorline
 
-"set background=dark
+set background=dark
 ""colorscheme jellybeans
 "colorscheme base16-default
 
